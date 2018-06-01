@@ -1,0 +1,7 @@
+---
+name: get_host_list
+pack: zabbix_data
+runner_type: "python-script"
+description: Get zabbix host list
+enabled: true
+entry_point: get_host_id.py

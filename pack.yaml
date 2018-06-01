@@ -1,0 +1,7 @@
+---
+ref: zabbix_data
+name: zabbix data
+description: get zabbix data from zabbixAPI
+version: 0.1.0
+author: souk
+email: info@stackstorm.com
