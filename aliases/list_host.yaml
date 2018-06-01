@@ -6,10 +6,10 @@ description: "Get data from zabbix api"
 formats:
   - "zbx list host"
 ack:
-  format: "要得，我到zabbix切取数据！"
+  format: "要得，我到zabbix切取数据，等到哈……"
   append_url: false
 result:
   format: |
-    {% for host in execution.result -%}
+    {% for host in execution.result.result -%}
     Host: *{{host}}*
     {% endfor %}
