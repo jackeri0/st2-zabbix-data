@@ -1,0 +1,7 @@
+---
+name: "list_host"
+pack: "zabbix_data"
+action_ref: "zabbix_data.get_host_list"
+description: "Get data from zabbix api"
+formats:
+  - "zbx list host"
