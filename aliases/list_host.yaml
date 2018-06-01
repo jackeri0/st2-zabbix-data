@@ -5,3 +5,11 @@ action_ref: "zabbix_data.get_host_list"
 description: "Get data from zabbix api"
 formats:
   - "zbx list host"
+ack:
+  format: "要得，我到zabbix切取数据！"
+  append_url: false
+result:
+  format: |
+    {% for host in execution.result -%}
+    Host: *{{host}}*
+    {% endfor %}
