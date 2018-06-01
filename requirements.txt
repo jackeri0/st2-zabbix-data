@@ -1,2 +1,2 @@
 # Place any required python libraries here. Will be installed into a pack specific virtualenv
-pyzabbix=0.7.4
+pyzabbix==0.7.4
